@@ -161,6 +161,7 @@
             this.btnHistorialPedidos.TabIndex = 13;
             this.btnHistorialPedidos.Text = "Historial de pedidos";
             this.btnHistorialPedidos.UseVisualStyleBackColor = true;
+            this.btnHistorialPedidos.Click += new System.EventHandler(this.btnHistorialPedidos_Click);
             // 
             // PedidosApp
             // 

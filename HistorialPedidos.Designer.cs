@@ -43,6 +43,7 @@
             this.dgvHistorialPedidos.Name = "dgvHistorialPedidos";
             this.dgvHistorialPedidos.Size = new System.Drawing.Size(756, 318);
             this.dgvHistorialPedidos.TabIndex = 0;
+            this.dgvHistorialPedidos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvHistorialPedidos_CellContentClick);
             // 
             // lblFiltroHistorial
             // 
@@ -61,6 +62,7 @@
             this.cmbFiltroHistorial.Name = "cmbFiltroHistorial";
             this.cmbFiltroHistorial.Size = new System.Drawing.Size(164, 21);
             this.cmbFiltroHistorial.TabIndex = 2;
+            this.cmbFiltroHistorial.SelectedIndexChanged += new System.EventHandler(this.cmbFiltroHistorial_SelectedIndexChanged);
             // 
             // lblHistorialTitulo
             // 
@@ -84,6 +86,7 @@
             this.Controls.Add(this.dgvHistorialPedidos);
             this.Name = "HistorialPedidos";
             this.Text = "HistorialPedidos";
+            this.Load += new System.EventHandler(this.HistorialPedidos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvHistorialPedidos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

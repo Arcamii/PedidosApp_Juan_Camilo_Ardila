@@ -62,5 +62,11 @@ namespace PedidosApp_Juan_Camilo_Ardila
         {
 
         }
+
+        private void btnHistorialPedidos_Click(object sender, EventArgs e)
+        {
+            HistorialPedidos HistorialPedidos = new HistorialPedidos();
+            HistorialPedidos.ShowDialog();
+        }
     }
 }
