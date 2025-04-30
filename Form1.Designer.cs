@@ -40,6 +40,7 @@
             this.btnCalcular = new System.Windows.Forms.Button();
             this.lblResultado = new System.Windows.Forms.Label();
             this.lblMostrarResultado = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.nudPeso)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudDistancia)).BeginInit();
             this.SuspendLayout();
@@ -81,7 +82,7 @@
             // chkUrgente
             // 
             this.chkUrgente.AutoSize = true;
-            this.chkUrgente.Location = new System.Drawing.Point(385, 109);
+            this.chkUrgente.Location = new System.Drawing.Point(385, 105);
             this.chkUrgente.Name = "chkUrgente";
             this.chkUrgente.Size = new System.Drawing.Size(64, 17);
             this.chkUrgente.TabIndex = 4;
@@ -150,11 +151,23 @@
             this.lblMostrarResultado.TabIndex = 11;
             this.lblMostrarResultado.Text = "RESULTADO";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(146, 25);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(145, 24);
+            this.label1.TabIndex = 12;
+            this.label1.Text = "PEDIDOS APP";
+            this.label1.Click += new System.EventHandler(this.label1_Click_2);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(500, 306);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lblMostrarResultado);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.btnCalcular);
@@ -191,6 +204,7 @@
         private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.Label lblResultado;
         private System.Windows.Forms.Label lblMostrarResultado;
+        private System.Windows.Forms.Label label1;
     }
 }
 

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace PedidosApp_Juan_Camilo_Ardila
 {
@@ -19,8 +20,8 @@ namespace PedidosApp_Juan_Camilo_Ardila
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            cmbProducto.DataSource = Enum.GetValues(typeof(TipoHabitacion));
-
+            string[] opciones = { "Opción A", "Opción B", "Opción C" };
+            cmbProducto.Items.AddRange(opciones);
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -57,6 +58,9 @@ namespace PedidosApp_Juan_Camilo_Ardila
             }
         }
 
-        
+        private void label1_Click_2(object sender, EventArgs e)
+        {
+
+        }
     }
 }
