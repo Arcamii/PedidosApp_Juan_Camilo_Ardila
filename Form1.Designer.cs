@@ -1,6 +1,6 @@
 ﻿namespace PedidosApp_Juan_Camilo_Ardila
 {
-    partial class Form1
+    partial class PedidosApp
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -40,6 +40,7 @@
             this.btnCalcular = new System.Windows.Forms.Button();
             this.lblResultado = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnHistorialPedidos = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.nudPeso)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudDistancia)).BeginInit();
             this.SuspendLayout();
@@ -48,7 +49,7 @@
             // 
             this.txtCliente.Location = new System.Drawing.Point(91, 106);
             this.txtCliente.Name = "txtCliente";
-            this.txtCliente.Size = new System.Drawing.Size(199, 20);
+            this.txtCliente.Size = new System.Drawing.Size(247, 20);
             this.txtCliente.TabIndex = 0;
             // 
             // cmbProducto
@@ -56,7 +57,7 @@
             this.cmbProducto.FormattingEnabled = true;
             this.cmbProducto.Location = new System.Drawing.Point(91, 132);
             this.cmbProducto.Name = "cmbProducto";
-            this.cmbProducto.Size = new System.Drawing.Size(199, 21);
+            this.cmbProducto.Size = new System.Drawing.Size(247, 21);
             this.cmbProducto.TabIndex = 1;
             // 
             // lblCliente
@@ -81,7 +82,7 @@
             // chkUrgente
             // 
             this.chkUrgente.AutoSize = true;
-            this.chkUrgente.Location = new System.Drawing.Point(378, 109);
+            this.chkUrgente.Location = new System.Drawing.Point(91, 226);
             this.chkUrgente.Name = "chkUrgente";
             this.chkUrgente.Size = new System.Drawing.Size(64, 17);
             this.chkUrgente.TabIndex = 4;
@@ -91,9 +92,9 @@
             // 
             // nudPeso
             // 
-            this.nudPeso.Location = new System.Drawing.Point(92, 159);
+            this.nudPeso.Location = new System.Drawing.Point(91, 159);
             this.nudPeso.Name = "nudPeso";
-            this.nudPeso.Size = new System.Drawing.Size(199, 20);
+            this.nudPeso.Size = new System.Drawing.Size(247, 20);
             this.nudPeso.TabIndex = 5;
             // 
             // lblPeso
@@ -108,15 +109,15 @@
             // 
             // nudDistancia
             // 
-            this.nudDistancia.Location = new System.Drawing.Point(92, 185);
+            this.nudDistancia.Location = new System.Drawing.Point(92, 187);
             this.nudDistancia.Name = "nudDistancia";
-            this.nudDistancia.Size = new System.Drawing.Size(199, 20);
+            this.nudDistancia.Size = new System.Drawing.Size(246, 20);
             this.nudDistancia.TabIndex = 7;
             // 
             // lblDistancia
             // 
             this.lblDistancia.AutoSize = true;
-            this.lblDistancia.Location = new System.Drawing.Point(32, 187);
+            this.lblDistancia.Location = new System.Drawing.Point(31, 189);
             this.lblDistancia.Name = "lblDistancia";
             this.lblDistancia.Size = new System.Drawing.Size(54, 13);
             this.lblDistancia.TabIndex = 8;
@@ -124,9 +125,9 @@
             // 
             // btnCalcular
             // 
-            this.btnCalcular.Location = new System.Drawing.Point(132, 248);
+            this.btnCalcular.Location = new System.Drawing.Point(370, 106);
             this.btnCalcular.Name = "btnCalcular";
-            this.btnCalcular.Size = new System.Drawing.Size(100, 41);
+            this.btnCalcular.Size = new System.Drawing.Size(127, 60);
             this.btnCalcular.TabIndex = 9;
             this.btnCalcular.Text = "Calcular";
             this.btnCalcular.UseVisualStyleBackColor = true;
@@ -136,7 +137,7 @@
             // 
             this.lblResultado.AutoSize = true;
             this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.Location = new System.Drawing.Point(31, 312);
+            this.lblResultado.Location = new System.Drawing.Point(71, 299);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(0, 20);
             this.lblResultado.TabIndex = 10;
@@ -145,18 +146,29 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(193, 26);
+            this.label1.Location = new System.Drawing.Point(193, 40);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(145, 24);
             this.label1.TabIndex = 12;
             this.label1.Text = "PEDIDOS APP";
             this.label1.Click += new System.EventHandler(this.label1_Click_2);
             // 
-            // Form1
+            // btnHistorialPedidos
+            // 
+            this.btnHistorialPedidos.Location = new System.Drawing.Point(370, 183);
+            this.btnHistorialPedidos.Name = "btnHistorialPedidos";
+            this.btnHistorialPedidos.Size = new System.Drawing.Size(127, 60);
+            this.btnHistorialPedidos.TabIndex = 13;
+            this.btnHistorialPedidos.Text = "Historial de pedidos";
+            this.btnHistorialPedidos.UseVisualStyleBackColor = true;
+            // 
+            // PedidosApp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(528, 406);
+            this.Controls.Add(this.btnHistorialPedidos);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.btnCalcular);
@@ -169,8 +181,8 @@
             this.Controls.Add(this.lblCliente);
             this.Controls.Add(this.cmbProducto);
             this.Controls.Add(this.txtCliente);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "PedidosApp";
+            this.Text = "PedidosApp";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.nudPeso)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudDistancia)).EndInit();
@@ -193,6 +205,7 @@
         private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.Label lblResultado;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnHistorialPedidos;
     }
 }
 

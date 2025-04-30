@@ -11,9 +11,9 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace PedidosApp_Juan_Camilo_Ardila
 {
-    public partial class Form1 : Form
+    public partial class PedidosApp : Form
     {
-        public Form1()
+        public PedidosApp()
         {
             InitializeComponent();
         }
