@@ -20,7 +20,7 @@ namespace PedidosApp_Juan_Camilo_Ardila
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            string[] opciones = { "Opción A", "Opción B", "Opción C" };
+            string[] opciones = { "Tecnología", "Accesorio", "Componente" };
             cmbProducto.Items.AddRange(opciones);
         }
 
@@ -50,7 +50,7 @@ namespace PedidosApp_Juan_Camilo_Ardila
                 int distancia = Convert.ToInt32(nudDistancia.Value);
                 Pedido pedido = new Pedido(cliente, producto, urgente, peso, distancia);
                 RegistroPedidos.Instancia.AgregarPedido(pedido);
-                lblResultado.Text = $"Entrega: {pedido.MetodoEntrega.TipoEntrega()}" + $"Costo: ${pedido.ObtenerCosto():0.00}";
+                lblResultado.Text = $"Entrega: {pedido.MetodoEntrega.TipoEntrega()}" + $" \nCosto: ${pedido.ObtenerCosto():0.00}";
             }
             catch (Exception ex)
             {
