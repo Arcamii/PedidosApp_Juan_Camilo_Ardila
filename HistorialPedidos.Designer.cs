@@ -41,7 +41,7 @@
             this.dgvHistorialPedidos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvHistorialPedidos.Location = new System.Drawing.Point(23, 102);
             this.dgvHistorialPedidos.Name = "dgvHistorialPedidos";
-            this.dgvHistorialPedidos.Size = new System.Drawing.Size(756, 318);
+            this.dgvHistorialPedidos.Size = new System.Drawing.Size(734, 318);
             this.dgvHistorialPedidos.TabIndex = 0;
             this.dgvHistorialPedidos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvHistorialPedidos_CellContentClick);
             // 
@@ -79,7 +79,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(778, 450);
             this.Controls.Add(this.lblHistorialTitulo);
             this.Controls.Add(this.cmbFiltroHistorial);
             this.Controls.Add(this.lblFiltroHistorial);

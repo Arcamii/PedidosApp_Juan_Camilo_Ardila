@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PedidosApp_Juan_Camilo_Ardila
 {
-    public class EntregaDron:IMetodoEntrega
+    public class EntregaDron : IMetodoEntrega
     {
         public double CalcularCosto(int km) => 20 * km;
         public string TipoEntrega() => "Dron";

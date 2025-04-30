@@ -47,7 +47,7 @@
             // 
             // txtCliente
             // 
-            this.txtCliente.Location = new System.Drawing.Point(91, 106);
+            this.txtCliente.Location = new System.Drawing.Point(103, 106);
             this.txtCliente.Name = "txtCliente";
             this.txtCliente.Size = new System.Drawing.Size(247, 20);
             this.txtCliente.TabIndex = 0;
@@ -55,7 +55,7 @@
             // cmbProducto
             // 
             this.cmbProducto.FormattingEnabled = true;
-            this.cmbProducto.Location = new System.Drawing.Point(91, 132);
+            this.cmbProducto.Location = new System.Drawing.Point(103, 132);
             this.cmbProducto.Name = "cmbProducto";
             this.cmbProducto.Size = new System.Drawing.Size(247, 21);
             this.cmbProducto.TabIndex = 1;
@@ -63,9 +63,10 @@
             // lblCliente
             // 
             this.lblCliente.AutoSize = true;
+            this.lblCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCliente.Location = new System.Drawing.Point(32, 109);
             this.lblCliente.Name = "lblCliente";
-            this.lblCliente.Size = new System.Drawing.Size(47, 13);
+            this.lblCliente.Size = new System.Drawing.Size(54, 13);
             this.lblCliente.TabIndex = 2;
             this.lblCliente.Text = "Nombre:";
             this.lblCliente.Click += new System.EventHandler(this.label1_Click);
@@ -73,16 +74,17 @@
             // lblProducto
             // 
             this.lblProducto.AutoSize = true;
+            this.lblProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblProducto.Location = new System.Drawing.Point(32, 135);
             this.lblProducto.Name = "lblProducto";
-            this.lblProducto.Size = new System.Drawing.Size(53, 13);
+            this.lblProducto.Size = new System.Drawing.Size(62, 13);
             this.lblProducto.TabIndex = 3;
             this.lblProducto.Text = "Producto:";
             // 
             // chkUrgente
             // 
             this.chkUrgente.AutoSize = true;
-            this.chkUrgente.Location = new System.Drawing.Point(91, 226);
+            this.chkUrgente.Location = new System.Drawing.Point(103, 226);
             this.chkUrgente.Name = "chkUrgente";
             this.chkUrgente.Size = new System.Drawing.Size(64, 17);
             this.chkUrgente.TabIndex = 4;
@@ -92,7 +94,7 @@
             // 
             // nudPeso
             // 
-            this.nudPeso.Location = new System.Drawing.Point(91, 159);
+            this.nudPeso.Location = new System.Drawing.Point(103, 159);
             this.nudPeso.Name = "nudPeso";
             this.nudPeso.Size = new System.Drawing.Size(247, 20);
             this.nudPeso.TabIndex = 5;
@@ -100,16 +102,17 @@
             // lblPeso
             // 
             this.lblPeso.AutoSize = true;
+            this.lblPeso.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPeso.Location = new System.Drawing.Point(32, 161);
             this.lblPeso.Name = "lblPeso";
-            this.lblPeso.Size = new System.Drawing.Size(34, 13);
+            this.lblPeso.Size = new System.Drawing.Size(39, 13);
             this.lblPeso.TabIndex = 6;
             this.lblPeso.Text = "Peso:";
             this.lblPeso.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // nudDistancia
             // 
-            this.nudDistancia.Location = new System.Drawing.Point(92, 187);
+            this.nudDistancia.Location = new System.Drawing.Point(103, 187);
             this.nudDistancia.Name = "nudDistancia";
             this.nudDistancia.Size = new System.Drawing.Size(246, 20);
             this.nudDistancia.TabIndex = 7;
@@ -117,14 +120,16 @@
             // lblDistancia
             // 
             this.lblDistancia.AutoSize = true;
+            this.lblDistancia.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDistancia.Location = new System.Drawing.Point(31, 189);
             this.lblDistancia.Name = "lblDistancia";
-            this.lblDistancia.Size = new System.Drawing.Size(54, 13);
+            this.lblDistancia.Size = new System.Drawing.Size(64, 13);
             this.lblDistancia.TabIndex = 8;
             this.lblDistancia.Text = "Distancia:";
             // 
             // btnCalcular
             // 
+            this.btnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCalcular.Location = new System.Drawing.Point(370, 106);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(127, 60);
@@ -155,6 +160,7 @@
             // 
             // btnHistorialPedidos
             // 
+            this.btnHistorialPedidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHistorialPedidos.Location = new System.Drawing.Point(370, 183);
             this.btnHistorialPedidos.Name = "btnHistorialPedidos";
             this.btnHistorialPedidos.Size = new System.Drawing.Size(127, 60);

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PedidosApp_Juan_Camilo_Ardila
 {
-    public class EntregaCamion:IMetodoEntrega
+    public class EntregaCamion : IMetodoEntrega
     {
         public double CalcularCosto(int km) => 5 * km;
         public string TipoEntrega() => "Camión";
