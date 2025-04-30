@@ -39,7 +39,7 @@
             // 
             this.dgvHistorialPedidos.BackgroundColor = System.Drawing.Color.LightBlue;
             this.dgvHistorialPedidos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvHistorialPedidos.Location = new System.Drawing.Point(23, 102);
+            this.dgvHistorialPedidos.Location = new System.Drawing.Point(23, 107);
             this.dgvHistorialPedidos.Name = "dgvHistorialPedidos";
             this.dgvHistorialPedidos.Size = new System.Drawing.Size(734, 318);
             this.dgvHistorialPedidos.TabIndex = 0;
